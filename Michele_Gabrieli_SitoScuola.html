@@ -1,10 +1,104 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1>Stampa delle informazioni</h1>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+        <style>
+
+            #Repubblica{
+                width: 300px;
+            }
+
+            #testata{
+                width: 2000px;
+                border: 1px solid rgb(51, 51, 51);
+                border-radius: 5px;
+                margin: 20px 100px;
+                padding: 4px;
+                background-color: white;
+            }
+
+            #Titolo2{
+                font-size: 20px;
+                letter-spacing: 2px;
+                line-height: 20px;
+                font-weight: 500; 
+                text-align: center;
+                color: #808080;
+            }
+
+            #titolo{
+                font-size: 28px;
+                letter-spacing: 1px;
+                line-height: 28px;
+                text-align: center;
+                color: black;
+            }
+
+            #sottotilo{
+                font-size: 13px;
+                color: #808080;
+                font: normal 12px/18px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+            }
+
+            #CertiQuality{
+                width: 150px;
+                margin-left: 150px;
+            }
+            
+            h6{
+                text-align: center;
+            }
+
+            nav{
+                text-align: center;
+            }
+
+            button{
+                border-radius: 5px;
+            }
+
+            #BarraDiNavigazione{
+                background-color: rgb#0c4986;
+                margin-left: 100px;
+                margin-right: 117px;
+                border-radius: 5px;
+            }
+        </style>
+    
     </head>
     <body>
-        <h1></h1>
+        <div class="container" id="testata">
+            <div class="row justify-content-xl-center">
+                <div class="col" style="text-align: center;">
+                    <img src="https://www.iisviolamarchesini.edu.it/j2/images/logo-repubblica-italiana.png" alt="logo-repubblica-italiana" id="Repubblica">
+                </div>
+                <div class="col-6">
+                    <h4 id="Titolo2">ISTITUTO DI ISTRUZIONE SUPERIORE</h4>
+                    <h3 id="titolo"><b>I.I.S VIOLA-MARCHESINI</b></h3>
+                    <h6 style="color : gray" id="sottotitolo">Via De Gasperi, 21 - 45100 - Rovigo - Tel. 0425/410699 - Fax 0425/35277 <br>PEC: <u style="color: blue;">ROIS012001@pec.istruzione.it</u> - Codice Meccanografico: ROIS012001<br>Codice Fiscale 80006050290</h6>
+                </div>
+                <div class="col">
+                    <img src="https://www.iisviolamarchesini.edu.it/j2/images/certiquality.png" alt="CertiQuality" id="CertiQuality">
+                </div>
+            </div>
+        </div>
 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="BarraDiNavigazione">
+            <div class="container-fluid center-content-xl-center" >
+                <button type="button" id="Home">Home</button>
+                <button type="button" id="LaScuola">La scuola</button>
+                <button type="button" id="Genitori">Genitori</button>
+                <button type="button" id="Studenti">Studenti</button>
+                <button type="button" id="Docenti"> Docenti</button>
+                <button type="button" id="PersonaleATA">Personale Ata</button>
+                <button type="button" id="Orientamento2020-2021">Orientamento 2020-2021</button>
+                <button type="button" id="ECDL">ECDL</button>
+                <button type="button" id="CiscoAcademy">Cisco Academy</button>
+                <img src="https://www.iisviolamarchesini.edu.it/j2/en" alt="inglese">
+                <input type="text" id="Cerca" value="Cerca">
+            </div>
+        </nav>
     </body>
 </html>
