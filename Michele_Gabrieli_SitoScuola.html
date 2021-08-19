@@ -6,6 +6,37 @@
 
         <style>
 
+            @media (min-width: 240px){
+                img{
+                    width: auto;
+                }
+            }
+            @media (min-width: 320px){
+                img{
+                    width: 30%;
+                }
+            }
+            @media (min-width: 480px){
+                img{
+                    width: 40%;
+                }
+            }
+            @media (min-width: 768px){
+                img{
+                    width: 60%;
+                }
+            }
+            @media (min-width: 992px){
+                img{
+                    width: 80%;
+                }
+            }
+            @media (min-width: 1200px){
+                img{
+                    width: 100%;
+                }
+            }
+
             #Repubblica{
                 width: 300px;
             }
@@ -42,7 +73,6 @@
 
             #CertiQuality{
                 width: 150px;
-                margin-left: 150px;
             }
 
             nav{
@@ -275,24 +305,27 @@
     
     </head>
     <body style="background-color: #003b75;">
+
+        <!--<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.9"> -il meta tag permette di visualizzare la pagina in scala anche da telefono ecc-->
+
         <div class="container" id="testata"><!--Testata-->
             <div class="row justify-content-xl-center">
-                <div class="col" style="text-align: center;">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3" style="text-align: center;">
                     <img src="https://www.iisviolamarchesini.edu.it/j2/images/logo-repubblica-italiana.png" alt="logo-repubblica-italiana" id="Repubblica">
                 </div>
-                <div class="col-6" style="text-align: center;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="text-align: center;">
                     <h4 id="Titolo2">ISTITUTO DI ISTRUZIONE SUPERIORE</h4>
                     <h3 id="titolo"><b>I.I.S VIOLA-MARCHESINI</b></h3>
                     <h6 id="sottotitolo">Via De Gasperi, 21 - 45100 - Rovigo - Tel. 0425/410699 - Fax 0425/35277 <br>PEC: <u style="color: blue;">ROIS012001@pec.istruzione.it</u> - Codice Meccanografico: ROIS012001<br>Codice Fiscale 80006050290</h6>
                 </div>
-                <div class="col">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3" style="text-align: center;">
                     <img src="https://www.iisviolamarchesini.edu.it/j2/images/certiquality.png" alt="CertiQuality" id="CertiQuality">
                 </div>
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="BarraDiNavigazione"> <!--barra di navigazione-->
-            <div class="container-fluid center-content-xl-center" >
+        <nav class="navbar navbar-expand-lg" id="BarraDiNavigazione"> <!--barra di navigazione-->
+            <div class="container center-content-xl-center" >
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <button type="button" id="Home">Home</button>
@@ -341,7 +374,7 @@
 
         <div class="container" id="Area">
             <div class="row justify-content-xl-center">
-                <div class="col"><!--colonna di sinistra-->
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3"><!--colonna di sinistra-->
                     <div class="Plessi">
                         <h6>Plessi</h6>
                         <a href="#" style="margin-top: 5px;">I.I.S VIOLA-MARCHESINI</a><br>
@@ -396,7 +429,7 @@
                         <img src="https://www.iisviolamarchesini.edu.it/j2/images/pon_studenti.png" alt="Pon" id="ImmaginePON">
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <div class="RisorseDAD">
                         <h3 style="margin-top: 15px;">Risorse per Didattica Digitale Integrata</h3>
                         <a href="#" style="margin-top: 10px;">Risorse utili per la Didattica Digitale Integrata</a>
@@ -472,7 +505,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">   <!--colonna di destra-->
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">   <!--colonna di destra-->
                     <div class="Pon2014-2020">
                         <h5>PON 2014-2020</h5>
                         <img src="https://www.iisviolamarchesini.edu.it/j2/images/logo_nuovo_pon.png" alt="PON 2014-2020" id="Pon2014-2020">
