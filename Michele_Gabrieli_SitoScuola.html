@@ -5,35 +5,784 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
         <style>
-
-            @media (min-width: 240px){
-                img{
-                    width: auto;
-                }
-            }
             @media (min-width: 320px){
-                img{
-                    width: 30%;
+
+                .Plessi{
+                font: normal 9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                text-align: left;
+                color: blue;
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                background-color: #ececec;
+                margin: 10px 5px;
+                }
+
+                .Indirizzi{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                .IndirizziProfessionali{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                .PON{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                #ImmaginePON{
+                width: 50px;
+                }
+
+                .Pon2014-2020{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                #Pon2014-2020{
+                    width: 30px;
+                }
+
+                .CorsoDocentiSicurezza{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: center;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+                
+                #CorsoSicurezza{
+                    width: 50px;
+                }
+
+                .TourVirtuale{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                #TourVirtuale{
+                text-align: center;
+                width: 30px;
+                }
+
+                .LaScuolaOnline{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                #RegistroElettronico{
+                text-align: center;
+                width: 30px;
+                }
+
+                #Albo{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 30px;
+                }
+
+                #AmministrazioneTrasparente{
+                text-align: center;
+                margin-top: 10px;
+                width: 30px;
+                }
+
+                #Comunicati{
+                text-align: center;
+                margin-top: 10px;
+                width: 30px;
+                }
+
+                #ScuolaETerritorio{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 30px;
+                }
+
+                .Moodle{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 5px;
+                }
+
+                #Moodle{
+                text-align: center;
+                width: 30px;
+                }
+
+                .Bionet{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 5px;
+                }
+
+                #Bionet{
+                text-align: center;
+                width: 30px;
                 }
             }
             @media (min-width: 480px){
-                img{
-                    width: 40%;
+
+                .Plessi{
+                font: normal 10px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                text-align: left;
+                color: blue;
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                background-color: #ececec;
+                margin: 10px 5px;
+                }
+
+                .Indirizzi{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 10px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                .IndirizziProfessionali{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                .PON{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                #ImmaginePON{
+                width: 50px;
+                }
+
+                .Pon2014-2020{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                #Pon2014-2020{
+                    width: 50px;
+                }
+
+                .CorsoDocentiSicurezza{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: center;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                #CorsoSicurezza{
+                    width: 90px;
+                }
+
+                .TourVirtuale{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                #TourVirtuale{
+                text-align: center;
+                width: 50px;
+                }
+
+                .LaScuolaOnline{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 5px;
+                }
+
+                #RegistroElettronico{
+                text-align: center;
+                width: 50px;
+                }
+
+                #Albo{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 50px;
+                }
+
+                #AmministrazioneTrasparente{
+                text-align: center;
+                margin-top: 10px;
+                width: 50px;
+                }
+
+                #Comunicati{
+                text-align: center;
+                margin-top: 10px;
+                width: 50px;
+                }
+
+                #ScuolaETerritorio{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 50px;
+                }
+
+                .Moodle{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 5px;
+                }
+
+                #Moodle{
+                text-align: center;
+                width: 50px;
+                }
+
+                .Bionet{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 5px;
+                }
+
+                #Bionet{
+                text-align: center;
+                width: 50px;
                 }
             }
             @media (min-width: 768px){
-                img{
-                    width: 60%;
+
+                .Plessi{
+                font: normal 12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                text-align: left;
+                color: blue;
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                background-color: #ececec;
+                margin: 10px 20px;
+                }
+
+                .Indirizzi{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 20px;
+                }
+
+                .IndirizziProfessionali{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 20px;
+                }
+
+                .PON{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 20px;
+                }
+
+                #ImmaginePON{
+                width: 70px;
+                }
+
+                .Pon2014-2020{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 3  0px;
+                }
+
+                #Pon2014-2020{
+                    width: 90px;
+                }
+
+                .CorsoDocentiSicurezza{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: center;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 30px;
+                }
+
+                #CorsoSicurezza{
+                    width: 90px;
+                }
+
+                .TourVirtuale{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 30px;
+                }
+
+                #TourVirtuale{
+                text-align: center;
+                width: 90px;
+                }
+
+                .LaScuolaOnline{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 30px;
+                }
+
+                #RegistroElettronico{
+                text-align: center;
+                width: 90px;
+                }
+
+                #Albo{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 90px;
+                }
+
+                #AmministrazioneTrasparente{
+                text-align: center;
+                margin-top: 10px;
+                width: 90px;
+                }
+
+                #Comunicati{
+                text-align: center;
+                margin-top: 10px;
+                width: 90px;
+                }
+
+                #ScuolaETerritorio{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 90px;
+                }
+
+                .Moodle{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 30px;
+                }
+
+                #Moodle{
+                text-align: center;
+                width: 90px;
+                }
+
+                .Bionet{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 30px;
+                }
+
+                #Bionet{
+                text-align: center;
+                width: 90px;
                 }
             }
             @media (min-width: 992px){
-                img{
-                    width: 80%;
+
+                .Plessi{
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                text-align: left;
+                color: blue;
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                background-color: #ececec;
+                margin: 10px 40px;
+                }
+
+                .Indirizzi{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 10px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 40px;
+                }
+
+                .IndirizziProfessionali{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 40px;
+                }
+
+                .PON{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 40px;
+                }
+
+                #ImmaginePON{
+                width: 130px;
+                }
+
+                .Pon2014-2020{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 40px;
+                }
+
+                #Pon2014-2020{
+                    width: 120px;
+                }
+
+                .CorsoDocentiSicurezza{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: center;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 40px;
+                }
+
+                #CorsoSicurezza{
+                    width: 130px;
+                }
+
+                .TourVirtuale{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 40px;
+                }
+
+                #TourVirtuale{
+                text-align: center;
+                width: 130px;
+                }
+
+                .LaScuolaOnline{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 40px;
+                }
+
+                #RegistroElettronico{
+                text-align: center;
+                width: 130px;
+                }
+
+                #Albo{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 130px;
+                }
+
+                #AmministrazioneTrasparente{
+                text-align: center;
+                margin-top: 10px;
+                width: 130px;
+                }
+
+                #Comunicati{
+                text-align: center;
+                margin-top: 10px;
+                width: 130px;
+                }
+
+                #ScuolaETerritorio{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 130px;
+                }
+
+                .Moodle{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 40px;
+                }
+
+                #Moodle{
+                text-align: center;
+                width: 130px;
+                }
+
+                .Bionet{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 40px;
+                }
+
+                #Bionet{
+                text-align: center;
+                width: 130px;
                 }
             }
             @media (min-width: 1200px){
-                img{
-                    width: 100%;
+
+                .Plessi{
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                text-align: left;
+                color: blue;
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                background-color: #ececec;
+                margin: 10px 50px;
+                }
+
+                .Indirizzi{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 50px;
+                }
+
+                .IndirizziProfessionali{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 50px;
+                }
+
+                .PON{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 50px;
+                }
+
+                #ImmaginePON{
+                width: 175px;
+                }
+
+                .Pon2014-2020{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 50px;
+                }
+
+                #Pon2014-2020{
+                    width: 175px;
+                }
+
+                .CorsoDocentiSicurezza{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: center;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 50px;
+                }
+
+                #CorsoSicurezza{
+                    width: 150px;
+                }
+
+                .TourVirtuale{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 50px;
+                }
+
+                #TourVirtuale{
+                text-align: center;
+                width: 200px;
+                }
+
+                .LaScuolaOnline{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                color: blue;
+                text-align: left;
+                background-color: #ececec;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                margin: 20px 50px;
+                }
+
+                #RegistroElettronico{
+                text-align: center;
+                width: 200px;
+                }
+
+                #Albo{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 200px;
+                }
+
+                #AmministrazioneTrasparente{
+                text-align: center;
+                margin-top: 10px;
+                width: 200px;
+                }
+
+                #Comunicati{
+                text-align: center;
+                margin-top: 10px;
+                width: 200px;
+                }
+
+                #ScuolaETerritorio{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 200px;
+                }
+
+                .Moodle{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 50px;
+                }
+
+                #Moodle{
+                text-align: center;
+                width: 200px;
+                }
+
+                .Bionet{
+                border: 1px solid #8f8f8f;
+                border-radius: 1px;
+                text-align: center;
+                background-color: #ececec;
+                margin: 20px 50px;
+                }
+
+                #Bionet{
+                text-align: center;
+                width: 200px;
                 }
             }
 
@@ -85,6 +834,7 @@
             }
 
             #BarraDiNavigazione{
+                text-align: center;
                 background-color: rgb#0c4986;
                 margin-left: 100px;
                 margin-right: 117px;
@@ -105,60 +855,13 @@
             }
 
             #Area{
-                width: 2000px;
+                width: 1500px;
                 height: auto;
                 border: 1px solid rgb(51, 51, 51);
                 border-radius: 5px;
                 margin: 20px 100px;
                 padding: 4px;
                 background-color: white;
-            }
-
-            .Plessi{
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                text-align: left;
-                color: blue;
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                background-color: #ececec;
-                margin: 10px 50px;
-            }
-
-            .Indirizzi{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 50px;
-                width: auto;
-            }
-
-            .IndirizziProfessionali{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 50px;
-                width: auto;
-            }
-
-            .PON{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 50px;
-                width: auto;
-            }
-
-            #ImmaginePON{
-                width: 175px;
             }
 
             .RisorseDAD{
@@ -194,103 +897,6 @@
                 text-align: center;
             }
 
-            .CorsoDocentiSicurezza{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: center;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 50px;
-                width: auto; 
-            }
-
-            .TourVirtuale{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 50px;
-                width: auto; 
-            }
-
-            #TourVirtuale{
-                text-align: center;
-                width: 200px;
-            }
-
-            .LaScuolaOnline{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 50px;
-                width: auto; 
-            }
-
-            #RegistroElettronico{
-                text-align: center;
-                width: 200px;
-            }
-
-            #Albo{
-                text-align: center;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 200px;
-            }
-
-            #AmministrazioneTrasparente{
-                text-align: center;
-                margin-top: 10px;
-                width: 200px;
-            }
-
-            #Comunicati{
-                text-align: center;
-                margin-top: 10px;
-                width: 200px;
-            }
-
-            #ScuolaETerritorio{
-                text-align: center;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 200px;
-            }
-
-            .Moodle{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                text-align: center;
-                background-color: #ececec;
-                margin: 20px 50px;
-                width: auto; 
-            }
-
-            #Moodle{
-                text-align: center;
-                width: 200px;
-            }
-
-            .Bionet{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                text-align: center;
-                background-color: #ececec;
-                margin: 20px 50px;
-                width: auto;
-            }
-
-            #Bionet{
-                text-align: center;
-                width: 200px;
-            }
-
             .Privacy{
                 text-align: center;
             }
@@ -324,7 +930,7 @@
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg" id="BarraDiNavigazione"> <!--barra di navigazione-->
+        <nav class="navbar navbar-expand xs navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-expand-xxl" id="BarraDiNavigazione"> <!--barra di navigazione-->
             <div class="container center-content-xl-center" >
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -384,32 +990,32 @@
                     <div class="Indirizzi">
                         <h5>Indirizzi di studio Settore Tecnico Tecnologico</h5>
                         <ul>
-                            <li style="margin-top: 5px;">
-                                <a href="#">Biennio comune</a>
+                            <li>
+                                <a href="#" style="margin-top: 5px;">Biennio comune</a>
                             </li>
-                            <li style="margin-top: 5px;">
-                                <a href="#">Chimica, Materiali e Biotecnologie</a> 
+                            <li>
+                                <a href="#" style="margin-top: 5px;">Chimica, Materiali e Biotecnologie</a> 
                             </li>
-                            <li style="margin-top: 5px;">
-                                <a href="#">Elettronica ed<br>Elettrotecnica </a>
+                            <li>
+                                <a href="#" style="margin-top: 5px;">Elettronica ed Elettrotecnica </a>
                             </li>
-                            <li style="margin-top: 5px;">
-                                <a href="#">Informatica e<br>Telecomunicazioni</a>
+                            <li>
+                                <a href="#" style="margin-top: 5px;">Informatica e Telecomunicazioni</a>
                             </li>
-                            <li style="margin-top: 5px;">
-                                <a href="#">Meccanica,<br>Meccatronica ed<br>Energia</a>
+                            <li>
+                                <a href="#" style="margin-top: 5px;">Meccanica, Meccatronica ed Energia</a>
                             </li>
-                            <li style="margin-top: 5px;">
-                                <a href="#">Sistema Moda</a>
+                            <li>
+                                <a href="#" style="margin-top: 5px;">Sistema Moda</a>
                             </li>
-                            <li style="margin-top: 5px;">
-                                <a href="#">Istruzione degli<br>Adulti</a>
+                            <li>
+                                <a href="#" style="margin-top: 5px;">Istruzione degli Adulti</a>
                             </li>
-                            <li style="margin-top: 5px;">
-                                <a href="#">Agraria,<br>Agroalimentare e<br>Agroindustria (sede<br>Munerati)</a>
+                            <li>
+                                <a href="#" style="margin-top: 5px;">Agraria, Agroalimentare e Agroindustria (sede<br>Munerati)</a>
                             </li>
-                            <li style="margin-top: 5px;">
-                                <a href="#">Costruzioni,<br>Ambiente e Territorio<br>(sede Bernini)</a>
+                            <li>
+                                <a href="#" style="margin-top: 5px;">Costruzioni,Ambiente e Territorio (sede Bernini)</a>
                             </li>
                         </ul>
                     </div>
