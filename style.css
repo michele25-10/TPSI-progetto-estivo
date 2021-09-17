@@ -1,41 +1,71 @@
 
-            @media (min-width: 320px){
+            @media screen and (max-width: 1000px)   {
 
-                #BarraDiNavigazione{
-                background-color: rgb#0c4986;
-                border-radius: 5px;
+                #testata{
+                    display: none;
+                    width: auto;
+                    border: 1px solid rgb(51, 51, 51);
+                    border-radius: 5px;
+                    text-align: center;
+                    padding: 4px;
+                    background-color: white;
                 }
 
-                .navbar-nav{
-                margin: 10px 10px;
-                background-color: #0c4986;
+                #TestataSinistra{
+                    display: none;
                 }
 
-                button{
-                border-radius: 5px;
-                margin: 3px 2px;
-                width: auto;
-                font-size: 10px;
+                #TestataDestra{
+                    display: none;
                 }
 
-                #LaScuola{
-                    width: 90px;
+                #sottotilo{
+                    display: none;    
                 }
 
-                #PersonaleATA{
-                    width: 115px;
+                #Repubblica{
+                    display: none;
                 }
 
-                #Inglese{
-                margin-top: 5px;
-                margin-right: 5px;
-                width: 30px;
+                #CertiQuality{
+                    display: none;
                 }
 
-                #Cerca{
-                margin-top: 3px;
-                width: 50px;
-                font-size: 10px;
+                #navbar{
+                    background: #192d64;
+                    width: 100%;
+                    height: auto;
+                }
+                
+                .selection{
+                    text-align: center;
+                    float: left;
+                    color: #fff;
+                    font-size: 10px;
+                }
+                
+                .divsel:hover{
+                    background: #053e77;
+                    border-width: thin;
+                    border-style: solid;
+                    border-color: #000;
+                    border-radius: 5px;
+                }
+                
+                #toolbar{
+                    text-align: center;
+                    padding: 5px;
+                    max-width: 1100px;
+                    margin: auto;
+                }
+                
+                #searchForm{
+                    width: 176px;
+                    height: 34px;
+                    border-radius: 5px;
+                    border-color: #0000;
+                    border-style: solid;
+                    border-width: thin;
                 }
 
                 .Plessi{
@@ -200,643 +230,83 @@
                     padding: 4px;
                     background-color: white;
                 }
-            }
-            @media (min-width: 480px){
 
-                #BarraDiNavigazione{
-                background-color: rgb#0c4986;
-                border-radius: 5px;
-                }
-
-                .navbar-nav{
-                margin: 10px 10px;
-                background-color: #0c4986;
-                }
-
-                button{
-                border-radius: 5px;
-                margin: 3px 2px;
-                width: auto;
-                font-size: 10px;
-                }
-
-                #LaScuola{
-                    width: 90px;
-                }
-
-                #PersonaleATA{
-                    width: 115px;
-                }
-
-                #Inglese{
-                margin-top: 5px;
-                margin-right: 5px;
-                width: 30px;
-                }
-
-                #Cerca{
-                margin-top: 3px;
-                width: 50px;
-                font-size: 10px;
-                }
-
-                .Plessi{
-                font: normal 10px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                text-align: left;
-                color: blue;
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                background-color: #ececec;
-                margin: 10px 5px;
-                }
-
-                .Indirizzi{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 10px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 5px;
-                }
-
-                .IndirizziProfessionali{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 5px;
-                }
-
-                .PON{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 5px;
-                }
-
-                #ImmaginePON{
-                width: 50px;
-                }
-
-                .Pon2014-2020{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 5px;
-                }
-
-                #Pon2014-2020{
-                    width: 50px;
-                }
-
-                .CorsoDocentiSicurezza{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: center;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 5px;
-                }
-
-                #CorsoSicurezza{
-                    width: 90px;
-                }
-
-                .TourVirtuale{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 5px;
-                }
-
-                #TourVirtuale{
-                text-align: center;
-                width: 50px;
-                }
-
-                .LaScuolaOnline{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 5px;
-                }
-
-                #RegistroElettronico{
-                text-align: center;
-                width: 50px;
-                }
-
-                #Albo{
-                text-align: center;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 50px;
-                }
-
-                #AmministrazioneTrasparente{
-                text-align: center;
-                margin-top: 10px;
-                width: 50px;
-                }
-
-                #Comunicati{
-                text-align: center;
-                margin-top: 10px;
-                width: 50px;
-                }
-
-                #ScuolaETerritorio{
-                text-align: center;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 50px;
-                }
-
-                .Moodle{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                text-align: center;
-                background-color: #ececec;
-                margin: 20px 5px;
-                }
-
-                #Moodle{
-                text-align: center;
-                width: 50px;
-                }
-
-                .Bionet{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                text-align: center;
-                background-color: #ececec;
-                margin: 20px 5px;
-                }
-
-                #Bionet{
-                text-align: center;
-                width: 50px;
-                }
-
-                #LinkFinali{
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-                    border: 1px solid rgb(51, 51, 51);
-                    border-radius: 5px;
-                    padding: 4px;
-                    background-color: white;
-                }
-            }
-            @media (min-width: 768px){
-
-                #BarraDiNavigazione{
-                background-color: rgb#0c4986;
-                border-radius: 5px;
-                }
-
-                .navbar-nav{
-                margin: 10px 10px;
-                background-color: #0c4986;
-                }
-
-                button{
-                border-radius: 5px;
-                margin: 3px 2px;
-                width: auto;
-                font-size: 10px;
-                }
-
-                #LaScuola{
-                    width: 90px;
-                }
-
-                #PersonaleATA{
-                    width: 115px;
-                }
-
-                #Inglese{
-                margin-top: 5px;
-                margin-right: 5px;
-                width: 30px;
-                }
-
-                #Cerca{
-                margin-top: 3px;
-                width: 50px;
-                font-size: 10px;
-                }
-
-                .Plessi{
-                font: normal 12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                text-align: left;
-                color: blue;
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                background-color: #ececec;
-                margin: 10px 20px;
-                }
-
-                .Indirizzi{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 20px;
-                }
-
-                .IndirizziProfessionali{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 20px;
-                }
-
-                .PON{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 20px;
-                }
-
-                #ImmaginePON{
-                width: 70px;
-                }
-
-                .Pon2014-2020{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 3  0px;
-                }
-
-                #Pon2014-2020{
-                    width: 90px;
-                }
-
-                .CorsoDocentiSicurezza{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: center;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 30px;
-                }
-
-                #CorsoSicurezza{
-                    width: 90px;
-                }
-
-                .TourVirtuale{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 30px;
-                }
-
-                #TourVirtuale{
-                text-align: center;
-                width: 90px;
-                }
-
-                .LaScuolaOnline{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 30px;
-                }
-
-                #RegistroElettronico{
-                text-align: center;
-                width: 90px;
-                }
-
-                #Albo{
-                text-align: center;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 90px;
-                }
-
-                #AmministrazioneTrasparente{
-                text-align: center;
-                margin-top: 10px;
-                width: 90px;
-                }
-
-                #Comunicati{
-                text-align: center;
-                margin-top: 10px;
-                width: 90px;
-                }
-
-                #ScuolaETerritorio{
-                text-align: center;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 90px;
-                }
-
-                .Moodle{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                text-align: center;
-                background-color: #ececec;
-                margin: 20px 30px;
-                }
-
-                #Moodle{
-                text-align: center;
-                width: 90px;
-                }
-
-                .Bionet{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                text-align: center;
-                background-color: #ececec;
-                margin: 20px 30px;
-                }
-
-                #Bionet{
-                text-align: center;
-                width: 90px;
-                }
-
-                #LinkFinali{
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-                    border: 1px solid rgb(51, 51, 51);
-                    border-radius: 5px;
-                    padding: 4px;
-                    background-color: white;
-                }
-            }
-            @media (min-width: 992px){
-
-                #BarraDiNavigazione{
-                margin-left: 0px;
-                background-color: rgb#0c4986;
-                border-radius: 5px;
-                }
-
-                .navbar-nav{
-                margin: 10px 10px;
-                background-color: #0c4986;
-                }
-
-                button{
-                border-radius: 5px;
-                margin: 3px 4px;
-                }
-
-                #LaScuola{
-                    width: 90px;
-                }
-
-                #PersonaleATA{
-                    width: 115px;
-                }
-
-                #Inglese{
-                margin-top: 5px;
-                margin-right: 5px;
-                width: 20px;
-                }
-
-                #Cerca{
-                margin-top: 3px;
-                width: 100px;
-                }
-
-                .Plessi{
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                text-align: left;
-                color: blue;
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                background-color: #ececec;
-                margin: 10px 40px;
-                }
-
-                .Indirizzi{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 10px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 40px;
-                }
-
-                .IndirizziProfessionali{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 40px;
-                }
-
-                .PON{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 40px;
-                }
-
-                #ImmaginePON{
-                width: 130px;
-                }
-
-                .Pon2014-2020{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 40px;
-                }
-
-                #Pon2014-2020{
-                    width: 120px;
-                }
-
-                .CorsoDocentiSicurezza{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: center;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 40px;
-                }
-
-                #CorsoSicurezza{
-                    width: 130px;
-                }
-
-                .TourVirtuale{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 40px;
-                }
-
-                #TourVirtuale{
-                text-align: center;
-                width: 130px;
-                }
-
-                .LaScuolaOnline{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                color: blue;
-                text-align: left;
-                background-color: #ececec;
-                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 20px 40px;
-                }
-
-                #RegistroElettronico{
-                text-align: center;
-                width: 130px;
-                }
-
-                #Albo{
-                text-align: center;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 130px;
-                }
-
-                #AmministrazioneTrasparente{
-                text-align: center;
-                margin-top: 10px;
-                width: 130px;
-                }
-
-                #Comunicati{
-                text-align: center;
-                margin-top: 10px;
-                width: 130px;
-                }
-
-                #ScuolaETerritorio{
-                text-align: center;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 130px;
-                }
-
-                .Moodle{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                text-align: center;
-                background-color: #ececec;
-                margin: 20px 40px;
-                }
-
-                #Moodle{
-                text-align: center;
-                width: 130px;
-                }
-
-                .Bionet{
-                border: 1px solid #8f8f8f;
-                border-radius: 1px;
-                text-align: center;
-                background-color: #ececec;
-                margin: 20px 40px;
-                }
-
-                #Bionet{
-                text-align: center;
-                width: 130px;
-                }
-
-                #LinkFinali{
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-                    border: 1px solid rgb(51, 51, 51);
-                    border-radius: 5px;
-                    padding: 4px;
-                    background-color: white;
-                }
             }
             @media (min-width: 1200px){
+
+                #testata{
+                    border: 1px solid rgb(51, 51, 51);
+                    border-radius: 5px;
+                    text-align: center;
+                    padding: 4px;
+                    background-color: white;
+                }
+    
+                #Titolo2{
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                    line-height: 20px;
+                    font-weight: 500; 
+                    color: #808080;
+                }
+    
+                #titolo{
+                    text-align: center;
+                    font-size: 28px;
+                    letter-spacing: 1px;
+                    line-height: 28px;
+                    color: black;
+                }
+    
+                #sottotilo{
+                    font-size: 13px;
+                    color: #808080;
+                    font: normal 12px/18px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                }
+
+                #Repubblica{
+                    width: 300px;
+                }
+    
+                #CertiQuality{
+                    width: 150px;
+                }
                 
-                #BarraDiNavigazione{
-                text-align: center;
-                background-color: rgb#0c4986;
-                border-radius: 5px;
+                #navbar{
+                    background: #192d64;
+                    width: 100%;
+                    height: auto;
                 }
-
-                .navbar-nav{
-                text-align: center;
-                background-color: #0c4986;
+                
+                .selection{
+                    text-align: center;
+                    float: left;
+                    color: #fff;
+                    font-size: 10px;
                 }
-
-                button{
-                border-radius: 5px;
-                margin: 3px 7px;
-                width: 100px;
+                
+                .divsel:hover{
+                    background: #053e77;
+                    border-width: thin;
+                    border-style: solid;
+                    border-color: #000;
+                    border-radius: 5px;
                 }
-
-                #Orientamento2020-2021{
-                    width: 110px;
+                
+                #toolbar{
+                    text-align: center;
+                    padding: 5px;
+                    max-width: 1100px;
+                    margin: auto;
                 }
-
-                #Inglese{
-                margin-top: 5px;
-                margin-right: 5px;
-                width: 45px;
-                }
-
-                #Cerca{
-                margin-top: 3px;
-                width: 200px;
+                
+                #searchForm{
+                    width: 176px;
+                    height: 34px;
+                    border-radius: 5px;
+                    border-color: #0000;
+                    border-style: solid;
+                    border-width: thin;
                 }
 
                 .Plessi{
@@ -1003,47 +473,6 @@
                 }
             }
 
-            #Repubblica{
-                width: 300px;
-            }
-
-            #testata{
-                border: 1px solid rgb(51, 51, 51);
-                border-radius: 5px;
-                text-align: center;
-                padding: 4px;
-                background-color: white;
-            }
-
-            #Titolo2{
-                font-size: 20px;
-                letter-spacing: 2px;
-                line-height: 20px;
-                font-weight: 500; 
-                color: #808080;
-            }
-
-            #titolo{
-                font-size: 28px;
-                letter-spacing: 1px;
-                line-height: 28px;
-                color: black;
-            }
-
-            #sottotilo{
-                font-size: 13px;
-                color: #808080;
-                font: normal 12px/18px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-            }
-
-            #CertiQuality{
-                width: 150px;
-            }
-
-            nav{
-                text-align: center;
-            }
-
             #Area{
                 width: 1500px;
                 height: auto;
@@ -1061,7 +490,7 @@
                 text-align: left;
                 background-color: #ececec;
                 font: normal 18px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 10px 50px;
+                margin: 10px 5px;
                 width: auto; 
             }
 
@@ -1071,7 +500,7 @@
                 text-align: left;
                 background-color: #ffffff;
                 font-family: 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-                margin: 10px 50px;
+                margin: 10px 5px;
                 width: auto; 
             }
 
