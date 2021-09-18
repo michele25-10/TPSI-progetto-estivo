@@ -1,5 +1,5 @@
 
-            @media screen and (max-width: 1000px)   {
+            @media screen and (max-width: 1199px)   {
 
                 #testata{
                     display: none;
@@ -48,6 +48,8 @@
                     text-align: center;
                     padding: 4px;
                     background-color: white;
+                    margin-top: 20px;
+                    width: auto;
                     }
 
                 .Plessi{
@@ -57,7 +59,7 @@
                 border: 1px solid #8f8f8f;
                 border-radius: 4px;
                 background-color: #ececec;
-                margin: 10px 5px;
+                margin: 20px 5px;
                 }
 
                 .Indirizzi{
@@ -105,21 +107,23 @@
                 }
 
                 #Pon2014-2020{
-                    width: 50px;
+                    width: 200px;
+                    text-align: left;
                 }
 
                 .CorsoDocentiSicurezza{
                 border: 1px solid #8f8f8f;
                 border-radius: 1px;
                 color: blue;
-                text-align: center;
+                text-align: left;
                 background-color: #ececec;
                 font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
                 margin: 20px 5px;
                 }
                 
                 #CorsoSicurezza{
-                    width: 50px;
+                    text-align: left;
+                    width: 100px;
                 }
 
                 .TourVirtuale{
@@ -133,8 +137,8 @@
                 }
 
                 #TourVirtuale{
-                text-align: center;
-                width: 30px;
+                text-align: left;
+                width: 100px;
                 }
 
                 .LaScuolaOnline{
@@ -149,59 +153,59 @@
 
                 #RegistroElettronico{
                 text-align: center;
-                width: 30px;
+                width: 100px;
                 }
 
                 #Albo{
                 text-align: center;
                 margin-top: 10px;
                 margin-bottom: 10px;
-                width: 30px;
+                width: 100px;
                 }
 
                 #AmministrazioneTrasparente{
                 text-align: center;
                 margin-top: 10px;
-                width: 30px;
+                width: 100px;
                 }
 
                 #Comunicati{
                 text-align: center;
                 margin-top: 10px;
-                width: 30px;
+                width: 100px;
                 }
 
                 #ScuolaETerritorio{
                 text-align: center;
                 margin-top: 10px;
                 margin-bottom: 10px;
-                width: 30px;
+                width: 100px;
                 }
 
                 .Moodle{
                 border: 1px solid #8f8f8f;
                 border-radius: 4px;
-                text-align: center;
+                text-align: left;
                 background-color: #ececec;
                 margin: 20px 5px;
                 }
 
                 #Moodle{
-                text-align: center;
-                width: 30px;
+                text-align: left;
+                width: 200px;
                 }
 
                 .Bionet{
                 border: 1px solid #8f8f8f;
                 border-radius: 4px;
-                text-align: center;
+                text-align: left;
                 background-color: #ececec;
                 margin: 20px 5px;
                 }
 
                 #Bionet{
-                text-align: center;
-                width: 30px;
+                text-align: left;
+                width: 200px;
                 }
 
                 #LinkFinali{
@@ -211,6 +215,7 @@
                     border-radius: 5px;
                     padding: 4px;
                     background-color: white;
+                    font-size: 14px;
                 }
 
             }
@@ -247,6 +252,7 @@
                 }
 
                 #Repubblica{
+                    margin-left: 70px;
                     width: 300px;
                 }
     
@@ -285,7 +291,7 @@
                 #searchForm{
                     width: 176px;
                     height: 34px;
-                    border-radius: 5px;
+                    border-radius: 4px;
                     border-color: #0000;
                     border-style: solid;
                     border-width: thin;
@@ -455,13 +461,17 @@
                 }
             }
 
+            #Repubblica{
+                margin-left: 70px;
+            }
+
             #Area{
-                width: 1500px;
+                width: auto;
                 height: auto;
                 border: 1px solid rgb(51, 51, 51);
                 border-radius: 5px;
                 text-align: center;
-                padding: 4px;
+                /*padding: 4px;*/
                 background-color: white;
             }
 
