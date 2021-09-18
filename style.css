@@ -3,32 +3,6 @@
 
                 #testata{
                     display: none;
-                    width: auto;
-                    border: 1px solid rgb(51, 51, 51);
-                    border-radius: 5px;
-                    text-align: center;
-                    padding: 4px;
-                    background-color: white;
-                }
-
-                #TestataSinistra{
-                    display: none;
-                }
-
-                #TestataDestra{
-                    display: none;
-                }
-
-                #sottotilo{
-                    display: none;    
-                }
-
-                #Repubblica{
-                    display: none;
-                }
-
-                #CertiQuality{
-                    display: none;
                 }
 
                 #navbar{
@@ -67,6 +41,14 @@
                     border-style: solid;
                     border-width: thin;
                 }
+
+                #Area{
+                    border: 1px solid rgb(51, 51, 51);
+                    border-radius: 5px;
+                    text-align: center;
+                    padding: 4px;
+                    background-color: white;
+                    }
 
                 .Plessi{
                 font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
@@ -235,7 +217,7 @@
             @media (min-width: 1200px){
 
                 #testata{
-                    border: 1px solid rgb(51, 51, 51);
+                    width: auto;
                     border-radius: 5px;
                     text-align: center;
                     padding: 4px;
