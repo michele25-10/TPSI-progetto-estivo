@@ -62,35 +62,35 @@
                 #searchForm{
                     width: 176px;
                     height: 34px;
-                    border-radius: 5px;
+                    border-radius: 4px;
                     border-color: #0000;
                     border-style: solid;
                     border-width: thin;
                 }
 
                 .Plessi{
-                font: normal 9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
                 text-align: left;
                 color: blue;
                 border: 1px solid #8f8f8f;
-                border-radius: 1px;
+                border-radius: 4px;
                 background-color: #ececec;
                 margin: 10px 5px;
                 }
 
                 .Indirizzi{
                 border: 1px solid #8f8f8f;
-                border-radius: 1px;
+                border-radius: 4px;
                 color: blue;
                 text-align: left;
                 background-color: #ececec;
-                font: normal 9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+                font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
                 margin: 20px 5px;
                 }
 
                 .IndirizziProfessionali{
                 border: 1px solid #8f8f8f;
-                border-radius: 1px;
+                border-radius: 4px;
                 color: blue;
                 text-align: left;
                 background-color: #ececec;
@@ -100,7 +100,7 @@
 
                 .PON{
                 border: 1px solid #8f8f8f;
-                border-radius: 1px;
+                border-radius: 4px;
                 color: blue;
                 text-align: left;
                 background-color: #ececec;
@@ -109,12 +109,12 @@
                 }
 
                 #ImmaginePON{
-                width: 50px;
+                width: 200px;
                 }
 
                 .Pon2014-2020{
                 border: 1px solid #8f8f8f;
-                border-radius: 1px;
+                border-radius: 4px;
                 color: blue;
                 text-align: left;
                 background-color: #ececec;
@@ -123,7 +123,7 @@
                 }
 
                 #Pon2014-2020{
-                    width: 30px;
+                    width: 50px;
                 }
 
                 .CorsoDocentiSicurezza{
@@ -198,7 +198,7 @@
 
                 .Moodle{
                 border: 1px solid #8f8f8f;
-                border-radius: 1px;
+                border-radius: 4px;
                 text-align: center;
                 background-color: #ececec;
                 margin: 20px 5px;
@@ -211,7 +211,7 @@
 
                 .Bionet{
                 border: 1px solid #8f8f8f;
-                border-radius: 1px;
+                border-radius: 4px;
                 text-align: center;
                 background-color: #ececec;
                 margin: 20px 5px;
