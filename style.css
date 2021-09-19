@@ -6,9 +6,10 @@
                 }
 
                 #navbar{
-                    background: #192d64;
+                    background: #000922;
                     width: 100%;
                     height: auto;
+                    color: #ffffff;
                 }
                 
                 .selection{
@@ -28,7 +29,6 @@
                 
                 #toolbar{
                     text-align: center;
-                    padding: 5px;
                     max-width: 1100px;
                     margin: auto;
                 }
@@ -46,7 +46,6 @@
                     border: 1px solid rgb(51, 51, 51);
                     border-radius: 5px;
                     text-align: center;
-                    padding: 4px;
                     background-color: white;
                     margin-top: 20px;
                     width: auto;
@@ -213,13 +212,16 @@
                     margin-bottom: 20px;
                     border: 1px solid rgb(51, 51, 51);
                     border-radius: 5px;
-                    padding: 4px;
                     background-color: white;
                     font-size: 14px;
                 }
 
             }
             @media (min-width: 1200px){
+
+                #Intestazione{
+                    background-color: #000922;
+                }
 
                 #testata{
                     width: auto;
@@ -261,7 +263,7 @@
                 }
                 
                 #navbar{
-                    background: #192d64;
+                    background: #000922;
                     width: 100%;
                     height: auto;
                 }
@@ -338,7 +340,7 @@
                 }
 
                 #ImmaginePON{
-                width: 175px;
+                width: 150px;
                 }
 
                 .Pon2014-2020{
@@ -352,7 +354,7 @@
                 }
 
                 #Pon2014-2020{
-                    width: 175px;
+                    width: 150px;
                 }
 
                 .CorsoDocentiSicurezza{
@@ -366,7 +368,7 @@
                 }
 
                 #CorsoSicurezza{
-                    width: 150px;
+                    width: 140px;
                 }
 
                 .TourVirtuale{
@@ -381,7 +383,7 @@
 
                 #TourVirtuale{
                 text-align: center;
-                width: 200px;
+                width: 150px;
                 }
 
                 .LaScuolaOnline{
@@ -396,33 +398,33 @@
 
                 #RegistroElettronico{
                 text-align: center;
-                width: 200px;
+                width: 150px;
                 }
 
                 #Albo{
                 text-align: center;
                 margin-top: 10px;
                 margin-bottom: 10px;
-                width: 200px;
+                width: 150px;
                 }
 
                 #AmministrazioneTrasparente{
                 text-align: center;
                 margin-top: 10px;
-                width: 200px;
+                width: 150px;
                 }
 
                 #Comunicati{
                 text-align: center;
                 margin-top: 10px;
-                width: 200px;
+                width: 150px;
                 }
 
                 #ScuolaETerritorio{
                 text-align: center;
                 margin-top: 10px;
                 margin-bottom: 10px;
-                width: 200px;
+                width: 150px;
                 }
 
                 .Moodle{
@@ -435,7 +437,7 @@
 
                 #Moodle{
                 text-align: center;
-                width: 200px;
+                width: 150px;
                 }
 
                 .Bionet{
@@ -448,7 +450,7 @@
 
                 #Bionet{
                 text-align: center;
-                width: 200px;
+                width: 150px;
                 }
 
                 #LinkFinali{
@@ -471,7 +473,6 @@
                 border: 1px solid rgb(51, 51, 51);
                 border-radius: 5px;
                 text-align: center;
-                /*padding: 4px;*/
                 background-color: white;
             }
 
